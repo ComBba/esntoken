@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initialSupply",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -477,11 +483,11 @@
 			]
 		},
 		"contracts/esnToken.sol": {
-			"keccak256": "0x511ff6fcb93bd96e28fec89ed46f095dbf5cbe3f3208cc4f1c67af6631e1fcc0",
+			"keccak256": "0xd5546075b86b44377534257037dee94bd42c8aba63d4599070361897135f51fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7ac662023e25677292c91a6a064ba499cf7dcafc1a8d568d2924ebf1c8bb6957",
-				"dweb:/ipfs/QmY8qTQh8PfeZdaGtfJKfJqG9UNbE2saNzfGgztaTiiGDw"
+				"bzz-raw://ae0da5628d08bc7a54721c87f9ecd07fd915120a773fac13a41d1f45e476d66b",
+				"dweb:/ipfs/QmQvxTUPLVAZWE2HBg4NNnFcSZyvNYH3spbDcv6if3BPvj"
 			]
 		}
 	},
