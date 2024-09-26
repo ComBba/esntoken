@@ -1,28 +1,16 @@
-REMIX DEFAULT WORKSPACE
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
-
-This workspace contains 3 directories:
-
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
-
-SCRIPTS
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+[block:44199963 txIndex:9]from: 0xbc5...aaf2eto: ESNToken.(constructor)value: 0 weidata: 0x608...b0033logs: 0hash: 0x0c5...32858
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xbe4cd70ef88cdef0915e2e1eb85e877280006c9e1e1ff8dc34fa277a7a5a6190
+block hash	0x0c5ef252a9fc58219f65b2ad1860a1030379d5c7cb3f4d0d21ab0242c5f32858
+block number	44199963
+contract address	0x0377d09c5a741a481bd79cf38e2d112248eb451e
+from	0xbc5c0efa7365bb4fbdaf062650e6dbe61f6aaf2e
+to	ESNToken.(constructor)
+gas	945397 gas
+transaction cost	945397 gas 
+input	0x608...b0033
+decoded input	{}
+decoded output	 - 
+logs	[]
+raw logs	[]
